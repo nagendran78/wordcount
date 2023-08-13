@@ -16,7 +16,7 @@ config.read('wordcount.cfg')
 
 #Get the configuration values from the config file
 data_directory   = config.get('DEFAULT', 'data_directory')
-file_name        = config.get('DEFAULT', 'filename_03')
+file_name        = config.get('DEFAULT', 'filename_02')
 input_file       = os.path.join(os.getcwd(), data_directory, file_name)
 
 # Function to retrieve file contents to string
@@ -54,7 +54,7 @@ for word in words:
     if word in word_dictionary:
         word_dictionary[word] += 1
 
-# Print output
+# Output the Dictonary contents
 for key in word_dictionary:
     print(key + ":", word_dictionary[key])
 
