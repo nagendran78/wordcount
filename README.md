@@ -23,7 +23,7 @@ Python code to calculate and provide a summary of words counts
      * **`filename04 = sample04.txt`**
    * Modify the python code file **`wordcount.py`**
      * Search for variable assignment `file_name`
-     * Update the config value to the sample file which is `**filename04**`
+     * Update the config value to the sample file which is **`filename_04`**
    * Save the **`wordcount.py`** and **`wordcount.cfg`**
    * goto cli and run
      * python wordcount.py
