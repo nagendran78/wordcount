@@ -1,6 +1,9 @@
 # wordcount
 Python code to calculate and provide a summary of words counts 
 
+![Supports](https://img.shields.io/badge/python-3.8-blue) ![RepoStar](https://img.shields.io/github/stars/nagendran78/wordcount?color=red) ![Commits](https://img.shields.io/github/commit-activity/t/nagendran78/wordcount?color=yellow) ![LastCommit](https://img.shields.io/github/last-commit/nagendran78/wordcount/main
+) ![License](https://img.shields.io/badge/license-apache-green)
+
 ## Requirements
 * The following items are required to run wordcount. Please download [Python 3.8.2](https://www.python.org/downloads/) or later version
 * To verify open cli and run
