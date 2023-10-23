@@ -14,7 +14,7 @@ code_start_time = time.time()
 config = configparser.ConfigParser()
 config.read('wordcount.cfg')
 
-#Get the configuration values from the config file
+# Get the configuration values from the config file
 data_directory   = config.get('DEFAULT', 'data_directory')
 file_name        = config.get('DEFAULT', 'filename_02')
 input_file       = os.path.join(os.getcwd(), data_directory, file_name)
